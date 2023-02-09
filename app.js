@@ -80,7 +80,7 @@ function handleClick(event) {
 
   totalClicks++;
   if (totalClicks === maxClicks) {
-    alert("Thank you for voting!");
+    alert("Thank you for playing, lets see what the votes say!");
     imgContainer.removeEventListener("click", handleClick);
     renderChart();
     return; // end the function
